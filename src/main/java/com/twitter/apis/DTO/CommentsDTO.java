@@ -7,14 +7,6 @@ public class CommentsDTO {
     private String replyText;
     private String timestamp;
 
-    // public CommentsDTO(Long id, Long userId, Long tweetId, String replyText, String timestamp) {
-    //     this.id = id;
-    //     this.userId = userId;
-    //     this.tweetId = tweetId;
-    //     this.replyText = replyText;
-    //     this.timestamp = timestamp;
-    // }
-
     public CommentsDTO(Long userId, Long tweetId, String replyText, String timestamp) {
         this.userId = userId;
         this.tweetId = tweetId;

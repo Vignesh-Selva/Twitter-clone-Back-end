@@ -11,8 +11,6 @@ public class TweetDTOToCustomTweetDTOConverter implements Converter<TweetDTO, Cu
 
     @Override
     public CustomTweetDTO convert(TweetDTO tweetDTO) {
-        // Convert TweetDTO to CustomTweetDTO here
-        // Create a new instance of CustomTweetDTO and set its properties accordingly
         CustomTweetDTO customTweetDTO = new CustomTweetDTO();
         customTweetDTO.setText(tweetDTO.getText());
         customTweetDTO.setTimestamp(tweetDTO.getTimestamp());
