@@ -1,0 +1,5 @@
+FROM openjdk:11-jdk
+
+COPY target/apis.jar .
+
+ENTRYPOINT ["java", "-jar", "apis.jar"]
